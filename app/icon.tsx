@@ -13,13 +13,31 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "radial-gradient(circle at center, #8d2121 0%, #3b1313 100%)",
-          fontFamily: "sans-serif",
         }}
       >
-        <span style={{ fontSize: 320, fontWeight: 900, color: "#fff957", lineHeight: 1 }}>
-          T
-        </span>
+        <div
+          style={{
+            width: "100%",
+            height: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            borderRadius: "50%",
+            background: "radial-gradient(circle at 50% 35%, #8d2121 0%, #3b1313 100%)",
+          }}
+        >
+          <span
+            style={{
+              fontSize: 320,
+              fontWeight: 900,
+              color: "#fff957",
+              lineHeight: 1,
+              fontFamily: "sans-serif",
+            }}
+          >
+            T
+          </span>
+        </div>
       </div>
     ),
     { ...size }

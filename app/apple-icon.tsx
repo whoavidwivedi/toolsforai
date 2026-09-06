@@ -13,11 +13,20 @@ export default function AppleIcon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "radial-gradient(circle at center, #8d2121 0%, #3b1313 100%)",
-          fontFamily: "sans-serif",
+          borderRadius: "50%",
+          background: "radial-gradient(circle at 50% 35%, #8d2121 0%, #3b1313 100%)",
+          overflow: "hidden",
         }}
       >
-        <span style={{ fontSize: 118, fontWeight: 900, color: "#fff957", lineHeight: 1 }}>
+        <span
+          style={{
+            fontSize: 118,
+            fontWeight: 900,
+            color: "#fff957",
+            lineHeight: 1,
+            fontFamily: "sans-serif",
+          }}
+        >
           T
         </span>
       </div>

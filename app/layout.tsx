@@ -5,7 +5,7 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://tools.whoavidwivedi.work"
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://toolsforai.whoavidwivedi.work"
 
 const dmSans = DM_Sans({subsets:['latin'],variable:'--font-sans'})
 
@@ -25,21 +25,13 @@ export const metadata: Metadata = {
     default: "toolsforai",
     template: "%s | toolsforai",
   },
-  description:
-    "Developer utilities for the AI era — chunk documents, prepare context, and organize prompts. Coming soon.",
+  description: "Coming soon.",
   applicationName: "toolsforai",
   authors: [{ name: "whoavidwivedi", url: "https://github.com/whoavidwivedi" }],
   creator: "whoavidwivedi",
   publisher: "whoavidwivedi",
   generator: "Next.js",
-  keywords: [
-    "tools for ai",
-    "ai developer tools",
-    "document chunker",
-    "context window",
-    "prompt library",
-    "token counter",
-  ],
+  keywords: ["toolsforai", "developer tools"],
   category: "developer tools",
   referrer: "origin-when-cross-origin",
   formatDetection: {
@@ -66,8 +58,7 @@ export const metadata: Metadata = {
     siteName: "toolsforai",
     url: SITE_URL,
     title: "toolsforai",
-    description:
-      "Developer utilities for the AI era — chunk documents, prepare context, and organize prompts. Coming soon.",
+    description: "Coming soon.",
     locale: "en_US",
     images: [
       {
@@ -82,8 +73,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "toolsforai",
-    description:
-      "Developer utilities for the AI era — chunk documents, prepare context, and organize prompts. Coming soon.",
+    description: "Coming soon.",
     creator: "@whoavidwivedi",
     images: ["/og-image.jpg"],
   },

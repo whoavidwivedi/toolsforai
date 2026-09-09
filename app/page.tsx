@@ -31,7 +31,7 @@ export default function Page() {
       </div>
       <div className="relative z-10 flex min-h-svh items-center justify-center p-6">
         <h1 className="font-google-flex text-lg font-medium text-white">toolsforai</h1>
-        <p className="absolute bottom-6 left-1/2 -translate-x-1/2 text-[10px] text-white/40 uppercase tracking-[0.3em]">
+        <p className="absolute bottom-6 left-1/2 -translate-x-1/2 text-sm text-white/40 uppercase tracking-[0.3em]">
           coming soon
         </p>
       </div>
